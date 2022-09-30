@@ -1,0 +1,73 @@
+/*styles for sticky footer start*/
+
+/* makes sure the document is 100% tall. Takes up all visible space */
+
+html, body {
+    height: 100%;
+   
+}
+
+/* Making the body a flex box */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* this makes out flex box grow */
+.content {
+    flex: 1 0 auto;
+    margin-top: 1rem;
+}
+
+/* shrink the footer as small as possible */
+footer{
+    flex-shrink: 0;
+}
+/*styles for sticky footer end*/
+
+.bgImage{
+    background: url(/img/Ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.candyFont {
+    font-family: 'Emilys Candy', sans-serif;
+
+}
+
+.abelFont{
+    font-family: 'Abel', sans-serif;
+}
+
+.bgPages{
+    background: #da627d;
+}
+
+.colOne{
+    background-color: #fabfbe;
+}
+
+.colTwo{
+    background-color: #f4acb7;
+}
+
+.colThree{
+    background-color: #c04d6f;
+}
+
+.borderOne{
+    border: 4px solid #752140;
+}
+
+.texCol{
+    color:#752140;
+}
+
+.footie{
+    background-color: #ffcad4;
+}
