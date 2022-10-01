@@ -20,6 +20,11 @@ body{
     margin-top: 1rem;
 }
 
+.content2{
+    flex: 1 0 auto;
+    margin-top: 3.5rem;
+}
+
 /* shrink the footer as small as possible */
 footer{
     flex-shrink: 0;
@@ -33,6 +38,11 @@ footer{
     background-size: cover;
     background-attachment: fixed;
   
+}
+
+.imgBaby{
+    height: 35%;
+    width: 35%;
 }
 
 .candyFont {
